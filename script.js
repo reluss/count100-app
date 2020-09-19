@@ -37,3 +37,4 @@ function markBtn(clicked_id) {
   resultP.innerHTML = greenBtn + redBtn + " - " + redBtn + " = " + result;
   console.log(result);
 }
+console.log("check");
