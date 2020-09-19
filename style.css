@@ -6,4 +6,53 @@ body {
   margin: 0;
   min-height: 100vh;
   background: rgb(32, 58, 85);
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* .content {
+  text-align: left;
+  width: 200;
+} */
+
+input {
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.startBtn {
+  width: 19%;
+}
+
+button {
+  width: 5%;
+  table-layout: fixed;
+  margin: 5px;
+}
+
+.btnON {
+  background-color: rgb(85, 209, 182);
+}
+
+.btnOFF {
+  background-color: rgb(226, 103, 103);
+}
+
+p {
+  color: antiquewhite;
+  font-size: large;
+}
+
+/* Media Query: Large Smartphone */
+@media screen and (max-width: 1000px) {
+  body {
+    width: 100%;
+    text-align: center;
+  }
+
+  button {
+    width: 8.7%;
+    table-layout: fixed;
+    margin: 10px 2px 2px 2px;
+  }
 }
